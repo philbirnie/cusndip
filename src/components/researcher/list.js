@@ -7,7 +7,9 @@ const ResearcherList = () => {
     <StaticQuery
       query={graphql`
         query ResaercherQuery {
-          allMarkdownRemark {
+          allMarkdownRemark (
+          filter: {fileAbsolutePath: {regex: "/bios/"}}
+          sort: {fields: frontmatter___position, order: ASC}) {
             edges {
               node {
                 frontmatter {
@@ -28,7 +30,7 @@ const ResearcherList = () => {
               data.allMarkdownRemark.edges.map((node) => {
                 const frontmatter = node.node.frontmatter || {};
                 const key = frontmatter.slug;
-                return<li key={key}>
+                return <li key={key}>
                   <Bio
                     title={frontmatter.title}
                     html={node.node.html}
