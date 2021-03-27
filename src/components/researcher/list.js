@@ -1,12 +1,10 @@
 import * as React from "react"
-import { StaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import Bio from "./bio";
 
 const ResearcherList = () => {
-  return (
-    <StaticQuery
-      query={graphql`
-        query ResaercherQuery {
+  const data = useStaticQuery(graphql`
+          query ResaercherQuery {
           allMarkdownRemark (
           filter: {fileAbsolutePath: {regex: "/bios/"}}
           sort: {fields: frontmatter___position, order: ASC}) {
@@ -16,33 +14,53 @@ const ResearcherList = () => {
                   title
                   position
                   slug
+                  image
                 }
                 html
               }
             }
           }
-        }
-      `}
-      render={data => (
-        <section className="c-researchers__list">
-          <ul>
-            {
-              data.allMarkdownRemark.edges.map((node) => {
-                const frontmatter = node.node.frontmatter || {};
-                const key = frontmatter.slug;
-                return <li key={key}>
-                  <Bio
-                    title={frontmatter.title}
-                    html={node.node.html}
-                    position={frontmatter.position}
-                  />
-                </li>
-              })}
-          </ul>
-        </section>
-      )
-      }
-    />
+          allFile(
+            filter: {absolutePath: {regex: "/bio-images/"}, sourceInstanceName: {eq: "images"}}
+          ) {
+            edges {
+              node {
+                base
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 400
+                    height: 500 
+                    quality: 95
+                    transformOptions: {cropFocus: NORTH}
+                    )
+                }
+              }
+            }
+          }
+        }`);
+
+  return (
+    <section className="c-researchers__list">
+      <ul>
+        {
+          data.allMarkdownRemark.edges.map((node) => {
+            const frontmatter = node.node.frontmatter || {};
+            const key = frontmatter.slug;
+
+            /** Pluck image if available **/
+            const image = data.allFile.edges.filter((n) => n.node.base.includes(frontmatter.image));
+
+            return <li key={key}>
+              <Bio
+                title={frontmatter.title}
+                html={node.node.html}
+                position={frontmatter.position}
+                image={image[0] ? image[0].node.childImageSharp : null}
+              />
+            </li>
+          })}
+      </ul>
+    </section>
   );
 }
 

@@ -1,0 +1,32 @@
+h1,h2,h3,h4,h5,h6, .c-heading {
+    margin: 0;
+    padding: 0;
+    font-size: var(--text-size-md);
+    font-weight: 400;
+    line-height: var(--line-height-heading);
+}
+
+.c-heading {
+    &--xl {
+        font-size: var(--text-size-xxl);
+        font-weight: 300;
+        margin-bottom: 0.25em;
+    }
+    &--lg {
+        font-size: var(--text-size-xl);
+        font-weight: 700;
+    }
+    &--md{
+        font-size: var(--text-size-lg);
+        font-weight: 700;
+        line-height: var( --line-height-);
+    }
+
+    &--sm{
+        font-size: var(--text-size-sm);
+        font-weight: 700;
+        line-height: var( --line-height-large);
+    }
+
+}
+

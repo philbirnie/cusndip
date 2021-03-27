@@ -1,6 +1,7 @@
-import * as React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import MainNav from "./nav/main-nav";
+import * as React from "react"
+import { StaticQuery, graphql } from "gatsby"
+import MainNav from "./nav/main-nav"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   return (
@@ -17,8 +18,22 @@ const Header = () => {
       `}
       render={data => (
         <header className="c-page-header">
-          <h1>{data.site.siteMetadata.title}</h1>
-          <h2>{data.site.siteMetadata.subtitle}</h2>
+          <div className="c-page-header__content">
+            <h1 className="c-heading c-heading--xl">
+              {data.site.siteMetadata.title}
+            </h1>
+            <h2 className="c-heading c-heading--md">
+              {data.site.siteMetadata.subtitle}
+            </h2>
+          </div>
+          <StaticImage
+            src="../images/main-home.jpg"
+            alt="Main Home Banner"
+            loading="eager"
+            width={1600}
+            role="banner"
+            className="c-page-header__banner"
+          />
           <MainNav />
         </header>
       )}
@@ -26,4 +41,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Header

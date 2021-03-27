@@ -1,0 +1,38 @@
+:root {
+
+    /** Colors **/
+    --color-white: #fff;
+    --color-gray-lightest: #fafafa;
+    --color-gray-light: #eee;
+    --color-gray: #999;
+    --color-gray-dark: #444;
+
+    /** Layout **/
+    --width-full: 1200px;
+    --width-thin: 800px;
+    --width-xthin: 600px;
+
+    /** Spacing **/
+    --component-padding: 40px;
+    --space-xs: 10px;
+    --space-sm: 20px;
+    --space-base: 40px;
+    --space-lg: 80px;
+    --space-xl: 120px;
+
+    /** Font Size **/
+    --text-size-base: 1.0em;
+    --text-size-sm: 0.85em;
+    --text-size-xsm: 0.78em;
+    --text-size-md: 1.25em;
+    --text-size-lg: 1.55em;
+    --text-size-xl: 2.25em;
+    --text-size-xxl: 2.75em;
+
+    --line-height-small: 1.2;
+    --line-height-heading: 1.2;
+    --line-height-base: 1.5;
+    --line-height-large: 1.8;
+
+    --font-primary: "Proxima Nova W01";
+}

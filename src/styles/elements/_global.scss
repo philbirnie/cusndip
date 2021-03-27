@@ -1,0 +1,25 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: var(--line-height-base);
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg {
+    &-gray-light {
+        background-color: var(--color-gray-lightest);
+    }
+
+    &-gray {
+        background-color: var(--color-gray);
+    }
+
+}

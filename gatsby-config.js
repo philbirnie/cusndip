@@ -13,7 +13,8 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-image`,
+    "gatsby-plugin-sass",
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,6 +27,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/static`,
         name: `static`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/pages`,
+        name: `pages`,
       },
     },
     {
@@ -59,6 +67,19 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: [
+            "Proxima Nova W01 Light",
+            "Proxima Nova W01 Regular",
+            "Proxima Nova W01 Semibold",
+          ],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {

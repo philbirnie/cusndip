@@ -1,0 +1,20 @@
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=9cd7e304-42af-4a67-b077-c562d9ff4b28");
+    @font-face{
+        font-family:"Proxima Nova W01";
+        font-style: normal;
+        font-weight: 200;
+        src:url("122f8a1b-fa6b-4246-8d37-911edb4ac556.woff2") format("woff2"),url("0f51d8b8-bda2-4557-9b56-0a4e94ab63d9.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Proxima Nova W01";
+        font-style: normal;
+        font-weight: 400;
+        src:url("b38b8bd9-d96f-4bf9-add1-adbd2b08b802.woff2") format("woff2"),url("52ed7b2d-8a31-4b18-a1d5-8685608b0889.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Proxima Nova W01";
+        font-style: normal;
+        font-weight: 700;
+        src:url("c7dcb253-8dca-459b-aaa9-afef9131ef22.woff2") format("woff2"),url("390be235-bf11-42ee-8ba1-2dd10ca6a4ac.woff") format("woff");
+    }

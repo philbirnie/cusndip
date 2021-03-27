@@ -1,0 +1,8 @@
+.c-container {
+    max-width: var(--width-full);
+    margin: 0 auto;
+    padding: 0 var(--space-base);
+    @include mq($from: lg) {
+        padding: 0;
+    }
+}

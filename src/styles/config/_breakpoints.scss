@@ -1,0 +1,17 @@
+/**
+ * Breakpoints
+ */
+
+$mq-responsive: true;
+
+$mq-breakpoints: (
+        xxs: 300px, // ~374px
+        xs: 500px, // ~512px
+        sm: 768px, // ~768px
+        md: 1024px, // ~1024px
+        lg: 1280px, // ~1280px
+        xl: 1440px,  // ~1440px
+        xxl: 1920px  // ~1920px
+);
+
+@import '~sass-mq';

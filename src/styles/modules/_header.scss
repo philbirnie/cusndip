@@ -1,0 +1,24 @@
+.c-page-header {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__content {
+        max-width: var(--width-thin);
+        margin-right: auto;
+        padding: 2.0em;
+        z-index: 5;
+        color: var(--color-white);
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
