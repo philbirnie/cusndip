@@ -6,14 +6,32 @@
     --color-gray-light: #eee;
     --color-gray: #999;
     --color-gray-dark: #444;
+    --color-primary: rgb(38, 104, 109);
+    --color-secondary: rgb(212,223,72);
+    --color-tertiary: rgb(133, 30, 94);
+
+    /** Researcher Colors **/
+    --researcher-1: rgb(212,223,72);
+    --researcher-1-bg: rgba(212,223,72, 0.5);
+    --researcher-1-fg: #000;
+
+    --researcher-2: rgb(38, 104, 109);
+    --researcher-2-bg: rgb(38, 104, 109);
+    --researcher-2-fg: #fff;
+
+    --researcher-3: rgb(133, 30, 94);
+    --researcher-3-bg: rgb(133, 30, 94);
+    --researcher-3-fg: #fff;
 
     /** Layout **/
+    --width-xl: 1600px;
     --width-full: 1200px;
     --width-thin: 800px;
     --width-xthin: 600px;
 
     /** Spacing **/
     --component-padding: 40px;
+    --space-xxs: 4px;
     --space-xs: 10px;
     --space-sm: 20px;
     --space-base: 40px;
@@ -28,6 +46,7 @@
     --text-size-lg: 1.55em;
     --text-size-xl: 2.25em;
     --text-size-xxl: 2.75em;
+    --text-size-xxxl: 3.5em;
 
     --line-height-small: 1.2;
     --line-height-heading: 1.2;

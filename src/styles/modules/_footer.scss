@@ -1,0 +1,15 @@
+.c-page-footer {
+    color: var(--color-white);
+    background: var(--color-gray-dark);
+
+    .c-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+    }
+}
+
+.c-copyright {
+    font-size: var(--text-size-xsm);
+}

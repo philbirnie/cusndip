@@ -1,0 +1,15 @@
+.c-section {
+    &--recommendations {
+        background: var(--color-tertiary);
+        color: var(--color-white);
+
+        .c-btn {
+            background-color: transparent;
+            border: 3px solid var(--color-white);
+            &:hover {
+                background-color: var(--color-white);
+                color: var(--color-tertiary);
+            }
+        }
+    }
+}

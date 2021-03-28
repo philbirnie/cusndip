@@ -1,3 +1,7 @@
 .c-section {
     padding: var(--space-base) 0;
+
+    &__content {
+        margin-bottom: var(--space-base);
+    }
 }

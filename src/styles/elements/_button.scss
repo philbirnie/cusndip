@@ -1,0 +1,27 @@
+%btn-outline-white {
+    border: 3px solid var(--color-white);
+    background: transparent;
+}
+
+
+.c-btn {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-base);
+    color: var(--color-white);
+    text-align: center;
+    text-decoration: none;
+    background: var(--color-primary);
+    border: 3px solid var(--color-primary);
+    font-weight: 700;
+    transition: background 0.25s linear;
+
+    &:hover {
+        border: 3px solid var(--color-primary);
+        background-color: var(--color-white);
+        color: var(--color-primary);
+    }
+
+    &--outline-white {
+        @extend %btn-outline-white;
+    }
+}

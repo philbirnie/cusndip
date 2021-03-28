@@ -5,4 +5,8 @@
     @include mq($from: lg) {
         padding: 0;
     }
+
+    &--xl {
+        max-width: var(--width-xl);
+    }
 }

@@ -1,0 +1,32 @@
+.c-researchers__list {
+    text-align: center;
+    ul {
+        margin: var(--space-base) 0 0 0;
+        padding: 0;
+        list-style: none;
+
+        @include mq($from: md) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: var(--space-sm);
+        }
+    }
+}
+
+.researcher-bg {
+    &--position-1 {
+        background-color: var(--researcher-1-bg);
+        color: var(--researcher-1-fg);
+    }
+
+    &--position-2 {
+        background-color: var(--researcher-2-bg);
+        color: var(--researcher-2-fg);
+    }
+
+    &--position-3 {
+        background-color: var(--researcher-3-bg);
+        color: var(--researcher-3-fg);
+
+    }
+}
