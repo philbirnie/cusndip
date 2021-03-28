@@ -14,6 +14,7 @@ const SiteIndex = () => {
         filter: {
           fields: { slug: { in: ["/findings/", "/recommendations/"] } }
         }
+        sort: { fields: fields___slug, order: ASC }
       ) {
         edges {
           node {
@@ -43,7 +44,10 @@ const SiteIndex = () => {
           <MediaElement
             heading={frontmatter.title}
             content={node.node.fields.excerptHTML}
-            additionalClasses={`c-section--${key.replaceAll("/", "")}`}
+            additionalClasses={`c-content c-section--${key.replaceAll(
+              "/",
+              ""
+            )}`}
             url={key}
             key={key}
           />

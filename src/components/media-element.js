@@ -17,7 +17,7 @@ const MediaElement = ({ heading, content, url, additionalClasses }) => {
           />
           {url && (
             <Link to={url} className="c-btn">
-              More
+              More &#187;
             </Link>
           )}
         </div>

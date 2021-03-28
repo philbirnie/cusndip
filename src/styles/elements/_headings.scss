@@ -1,4 +1,4 @@
-.c-heading {
+.c-heading, %c-heading {
     margin: 0;
     padding: 0;
     font-size: var(--text-size-md);
@@ -6,33 +6,54 @@
     line-height: var(--line-height-heading);
 }
 
+@mixin heading-xxl {
+    font-size: var(--text-size-xxxl);
+    font-weight: 300;
+    margin-bottom: 0.25em;
+}
+
+@mixin heading-xl {
+    font-size: var(--text-size-xxl);
+    font-weight: 300;
+    margin-bottom: 0.25em;
+}
+
+@mixin heading-lg {
+    font-size: var(--text-size-xl);
+    font-weight: 700;
+}
+
+@mixin heading-md {
+    font-size: var(--text-size-lg);
+    font-weight: 700;
+    line-height: var(--line-height-);
+}
+
+@mixin heading-sm {
+    font-size: var(--text-size-sm);
+    font-weight: 700;
+    line-height: var(--line-height-large);
+}
+
 .c-heading {
     &--xxl {
-        font-size: var(--text-size-xxxl);
-        font-weight: 300;
-        margin-bottom: 0.25em;
+        @include heading-xxl;
     }
 
     &--xl {
-        font-size: var(--text-size-xxl);
-        font-weight: 300;
-        margin-bottom: 0.25em;
+        @include heading-xl;
     }
+
     &--lg {
-        font-size: var(--text-size-xl);
-        font-weight: 700;
-    }
-    &--md{
-        font-size: var(--text-size-lg);
-        font-weight: 700;
-        line-height: var( --line-height-);
+        @include heading-lg;
     }
 
-    &--sm{
-        font-size: var(--text-size-sm);
-        font-weight: 700;
-        line-height: var( --line-height-large);
+    &--md {
+        @include heading-md;
     }
 
+    &--sm {
+        @include heading-sm;
+    }
 }
 

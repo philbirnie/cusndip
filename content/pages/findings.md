@@ -13,7 +13,7 @@ excerpt: |
     We also provide unique findings specific to the three populations of Black campus change students, Black males in 3rd and 4th year and Black students 4th year and beyond.
 ---
 
-### Unified Themes
+## Unified Themes
 
 <ul>
 <li>Importance of Counterspaces
@@ -22,4 +22,22 @@ excerpt: |
 </blockquote>
 </li>
 <li>Black Student Representation</li>
+<li>Roles of Black Faculty and Staff</li>
+<li>Mental Health and Wellness</li>
+<li>White Cultural Competence
+<blockquote>I can tell you right now, most minority students do not - the ones I have talked to when I do talk to people about it, they don’t have much faith in it. And that’s because we never see anything done with our reports. It is literally like writing a paper that you should not get graded for.
+ <cite>- Analise</cite>
+</blockquote>
+</li>
+<li>Communicating the Value of the Black OSU Community</li>
 </ul>
+
+
+<h2 class="barred--researcher-1">Black Campus Change Students</h2>
+
+* Regional Campus Stigma
+* The Importance of Orientation to Relevant Resources
+
+<h2 class="barred--researcher-2">Black Men in 3rd and 4th Years</h2>
+
+* Academic guidance and scheduling even if not in a bridge program,

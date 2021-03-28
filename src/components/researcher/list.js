@@ -48,7 +48,7 @@ const ResearcherList = () => {
     <section className="c-section c-researchers__list">
       <div className="c-container c-container--xl">
         <header>
-          <h2 className="c-heading c-heading--xl">Researchers</h2>
+          <h2 className="c-heading c-heading--lg">Researchers</h2>
         </header>
         <ul>
           {data.allMarkdownRemark.edges.map(node => {

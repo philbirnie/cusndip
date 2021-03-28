@@ -18,3 +18,16 @@
         font-weight: 700;
         src:url("c7dcb253-8dca-459b-aaa9-afef9131ef22.woff2") format("woff2"),url("390be235-bf11-42ee-8ba1-2dd10ca6a4ac.woff") format("woff");
     }
+@font-face{
+    font-family:"Proxima Nova W01";
+    font-style: italic;
+    font-weight: 400;
+    src:url("Fonts/059380ce-8d86-4363-8261-13cb955d1c38.woff2") format("woff2"),url("Fonts/85b3924a-97bc-4c6d-9be8-7a0e31d2dae2.woff") format("woff");
+}
+
+@font-face{
+    font-family:"Proxima Nova W01";
+    font-style: italic;
+    font-weight: 700;
+    src:url("Fonts/a62e04e3-2d20-4059-92b5-db551ce87039.woff2") format("woff2"),url("Fonts/edb97f5d-0aea-40c9-974b-4a4d2553987b.woff") format("woff");
+}

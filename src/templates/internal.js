@@ -9,17 +9,21 @@ const InternalPageTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <article
-        className="page"
-      >
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        </header>
-        <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-      </article>
+      <div className="c-container">
+        <section className="c-section">
+          <header>
+            <h1 className="c-heading c-heading--xxl" itemProp="headline">
+              {post.frontmatter.title}
+            </h1>
+          </header>
+          <div className="c-content">
+            <section
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              itemProp="articleBody"
+            />
+          </div>
+        </section>
+      </div>
     </Layout>
   )
 }
@@ -27,9 +31,7 @@ const InternalPageTemplate = ({ data, location }) => {
 export default InternalPageTemplate
 
 export const pageQuery = graphql`
-  query PageBySlug(
-    $id: String!
-  ) {
+  query PageBySlug($id: String!) {
     site {
       siteMetadata {
         title

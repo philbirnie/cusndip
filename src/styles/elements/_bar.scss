@@ -1,0 +1,39 @@
+.barred {
+    &--researcher-1, &--researcher-2, &--researcher-3 {
+        display: block;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            width: 80px;
+            border-bottom: 4px solid var(--researcher-1);
+            font-style: italic;
+            font-size: 16px;
+        }
+    }
+
+    &--researcher-1 {
+        &:before {
+            content: 'Julie';
+            color: var(--researcher-1-txt);
+        }
+    }
+
+    &--researcher-2 {
+        &:before {
+            content: 'Jasmine';
+            color: var(--researcher-2);
+            border-color: var(--researcher-2);
+        }
+    }
+
+    &--researcher-3 {
+        &:before {
+            content: 'Michelle';
+            border-color: var(--researcher-3);
+            color: var(--researcher-3);
+        }
+    }
+}
