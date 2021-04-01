@@ -33,7 +33,7 @@ const SiteIndex = () => {
   `)
 
   return (
-    <Layout>
+    <Layout useFullHeader={true}>
       <Purpose />
       <ResearcherList />
       {data.allMarkdownRemark.edges.map(node => {

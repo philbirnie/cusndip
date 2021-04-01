@@ -1,6 +1,5 @@
 .c-page-header {
     position: relative;
-    min-height: 600px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -14,11 +13,18 @@
     }
 
     &__content {
-        max-width: var(--width-thin);
         margin-right: auto;
-        padding: 2.0em;
+        padding: 3.2em 2.0em 2.0em;
         z-index: 5;
         color: var(--color-white);
         background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    &--full {
+        min-height: 450px;
+
+        .c-page-header__content {
+            max-width: var(--width-thin);
+        }
     }
 }

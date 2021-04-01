@@ -3,8 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import MainNav from "./nav/main-nav"
 import { StaticImage } from "gatsby-plugin-image"
 import { useEffect, useRef, useState } from "react"
+const classNames = require("classnames")
 
-const Header = () => {
+const Header = ({ isFull }) => {
   const data = useStaticQuery(graphql`
     query HeadingQuery {
       site {
@@ -51,8 +52,12 @@ const Header = () => {
     startObserve()
   }, [])
 
+  const headerClasses = classNames("c-page-header", {
+    "c-page-header--full": isFull,
+  })
+
   return (
-    <header className="c-page-header">
+    <header className={headerClasses}>
       <div className="c-page-header__content">
         <h1 className="c-heading c-heading--xl">
           {data.site.siteMetadata.title}
