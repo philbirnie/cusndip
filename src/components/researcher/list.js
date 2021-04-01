@@ -45,7 +45,7 @@ const ResearcherList = () => {
   `)
 
   return (
-    <section className="c-section c-researchers__list">
+    <section className="c-section c-researchers__list" id="researchers">
       <div className="c-container c-container--xl">
         <header>
           <h2 className="c-heading c-heading--lg">Researchers</h2>

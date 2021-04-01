@@ -38,16 +38,13 @@ const SiteIndex = () => {
       <ResearcherList />
       {data.allMarkdownRemark.edges.map(node => {
         const frontmatter = node.node.frontmatter || {}
-        const key = node.node.fields.slug
+        const key = node.node.fields.slug || ""
 
         return (
           <MediaElement
             heading={frontmatter.title}
             content={node.node.fields.excerptHTML}
-            additionalClasses={`c-content c-section--${key.replaceAll(
-              "/",
-              ""
-            )}`}
+            additionalClasses={`c-content c-section--${key.replace(/\//, "")}`}
             url={key}
             key={key}
           />

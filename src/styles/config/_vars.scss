@@ -57,3 +57,10 @@
 
     --font-primary: "Proxima Nova W01";
 }
+
+$zindex: (
+        navigationToggle: 220,
+        navigation: 200,
+        header: 100,
+        headerElements: 150,
+);

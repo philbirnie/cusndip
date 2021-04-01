@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -12,7 +12,10 @@ const InternalPageTemplate = ({ data, location }) => {
       <div className="c-container">
         <section className="c-section">
           <header>
-            <h1 className="c-heading c-heading--xxl" itemProp="headline">
+            <h1
+              className="c-heading c-heading--xxl margin-bottom"
+              itemProp="headline"
+            >
               {post.frontmatter.title}
             </h1>
           </header>

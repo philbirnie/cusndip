@@ -15,9 +15,14 @@
         color: var(--color-gray);
         font-size: var(--text-size-base);
         font-style: italic;
+        font-weight: 700;
 
         cite {
             display: block;
+        }
+
+        &.text-color-white {
+            border-color: var(--color-white);
         }
     }
 
@@ -27,7 +32,7 @@
             margin-top: var(--space-base);
         }
         &[class*="barred"] {
-            margin-top: var(--space-lg);
+            margin-top: var(--space-sm);
         }
     }
 

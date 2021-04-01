@@ -13,8 +13,8 @@ module.exports = {
     },
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-image",
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,13 +44,26 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Proxima Nova W01"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 700,
+              linkImagesToOriginal: false,
+              quality: 70,
+              withWebp: true,
+              wrapperStyle: "margin-bottom: 40px",
             },
           },
           {
@@ -67,42 +80,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: [
-            "Proxima Nova W01 Light",
-            "Proxima Nova W01 Regular",
-            "Proxima Nova W01 Semibold",
-          ],
-          urls: ["/fonts/fonts.css"],
-        },
-      },
-    },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

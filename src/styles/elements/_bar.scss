@@ -16,14 +16,12 @@
 
     &--researcher-1 {
         &:before {
-            content: 'Julie';
             color: var(--researcher-1-txt);
         }
     }
 
     &--researcher-2 {
         &:before {
-            content: 'Jasmine';
             color: var(--researcher-2);
             border-color: var(--researcher-2);
         }
@@ -31,7 +29,6 @@
 
     &--researcher-3 {
         &:before {
-            content: 'Michelle';
             border-color: var(--researcher-3);
             color: var(--researcher-3);
         }

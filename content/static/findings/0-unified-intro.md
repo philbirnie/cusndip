@@ -1,18 +1,3 @@
----
-title: Findings
-excerpt: |
-    We identified six overarching categories that encompass our collective themes which are:
-
-    1. Importance of Counterspaces
-    2. Black Student Representation
-    3. Role of Black Faculty and Staff
-    4. Mental Health and Wellness
-    5. White Cultural Competence, and
-    6. Communicating the Value of the Black Ohio State Community.
-
-    We also provide unique findings specific to the three populations of Black campus change students, Black males in 3rd and 4th year and Black students 4th year and beyond.
----
-
 ## Unified Themes
 
 <ul>
@@ -31,13 +16,3 @@ excerpt: |
 </li>
 <li>Communicating the Value of the Black OSU Community</li>
 </ul>
-
-
-<h2 class="barred--researcher-1">Black Campus Change Students</h2>
-
-* Regional Campus Stigma
-* The Importance of Orientation to Relevant Resources
-
-<h2 class="barred--researcher-2">Black Men in 3rd and 4th Years</h2>
-
-* Academic guidance and scheduling even if not in a bridge program,
