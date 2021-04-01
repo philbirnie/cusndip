@@ -6,7 +6,7 @@ Banks, T. & Dohy, J. (2019). Mitigating barriers to persistence: A review of eff
 
 Brooks, M., Jones, C., & Burt, I. (2013). Are African-American male undergraduate retention programs successful? An evaluation of an undergraduate African-American male retention program. _Journal of African American Studies, 17_, 206-221.
 
-Carter, D. (2008). Achievement as resistance: The development of a critical race achievement ideology among Black achievers. _Harvard Educational Review_, 78(3), 466-569.
+Carter, D. (2008). Achievement as resistance: The development of a critical race achievement ideology among Black achievers. _Harvard Educational Review, 78_(3), 466-569.
 
 Collins, P. H. (2009). _Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment_. New York: Routledge.
 
