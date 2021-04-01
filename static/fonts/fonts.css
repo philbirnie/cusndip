@@ -5,24 +5,28 @@
         font-style: normal;
         font-weight: 200;
         src:url("122f8a1b-fa6b-4246-8d37-911edb4ac556.woff2") format("woff2"),url("0f51d8b8-bda2-4557-9b56-0a4e94ab63d9.woff") format("woff");
+        font-display: swap;
     }
     @font-face{
         font-family:"Proxima Nova W01";
         font-style: normal;
         font-weight: 400;
         src:url("b38b8bd9-d96f-4bf9-add1-adbd2b08b802.woff2") format("woff2"),url("52ed7b2d-8a31-4b18-a1d5-8685608b0889.woff") format("woff");
+        font-display: swap;
     }
     @font-face{
         font-family:"Proxima Nova W01";
         font-style: normal;
         font-weight: 700;
         src:url("c7dcb253-8dca-459b-aaa9-afef9131ef22.woff2") format("woff2"),url("390be235-bf11-42ee-8ba1-2dd10ca6a4ac.woff") format("woff");
+        font-display: swap;
     }
 @font-face{
     font-family:"Proxima Nova W01";
     font-style: italic;
     font-weight: 400;
     src:url("059380ce-8d86-4363-8261-13cb955d1c38.woff2") format("woff2"),url("85b3924a-97bc-4c6d-9be8-7a0e31d2dae2.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face{
@@ -30,4 +34,5 @@
     font-style: italic;
     font-weight: 700;
     src:url("a62e04e3-2d20-4059-92b5-db551ce87039.woff2") format("woff2"),url("edb97f5d-0aea-40c9-974b-4a4d2553987b.woff") format("woff");
+    font-display: swap;
 }
