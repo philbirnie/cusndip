@@ -8,9 +8,13 @@ html {
     font-family: var(--font-primary);
     font-weight: 400;
     line-height: var(--line-height-base);
-    font-size: 18px;
+    font-size: 15px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    @include mq($from: md) {
+        font-size: 18px;
+    }
 }
 
 .bg {

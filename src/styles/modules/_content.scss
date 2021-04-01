@@ -51,4 +51,8 @@
     h4 {
         @include heading-sm;
     }
+
+    a:not([class]) {
+        color: var(--color-tertiary);
+    }
 }

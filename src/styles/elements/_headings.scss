@@ -10,6 +10,10 @@
     font-size: var(--text-size-xxxl);
     font-weight: 700;
     margin-bottom: 0.25em;
+
+    @include mq($until: md) {
+        font-size: var(--text-size-xxxl-mobile);
+    }
 }
 
 @mixin heading-xl {
