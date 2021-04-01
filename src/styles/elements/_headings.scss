@@ -25,6 +25,9 @@
 @mixin heading-lg {
     font-size: var(--text-size-xl);
     font-weight: 700;
+    @include mq($until: md) {
+        font-size: var(--text-size-xl-mobile);
+    }
 }
 
 @mixin heading-md {

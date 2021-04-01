@@ -105,7 +105,7 @@ const RecommendationsPage = () => {
         </section>
       </div>
 
-      <div className="researcher-bg--position-1">
+      <div className="bg-gray-light">
         <div className="c-container">
           <RecommendationWrapper className="c-section">
             <div className="columns columns--3-2">
