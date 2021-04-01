@@ -52,7 +52,7 @@ Merisotis, J., & McCarthy, K. (2005). Retention and student success at minority 
 
 Minichiello, A. (2018). From deficit thinking to counter storying: A narrative inquiry of nontraditional student experience in undergraduate engineering education. _International of Journal of Education in Mathematics, Science and Technology, 6_(3), 266-284.
 
-Okun, T. (2013). white supremacy culture [PDF file]. [https://collectiveliberation.org/wpcontent/uploads/2013/01/White_Supremacy_Culture_Okun.pdf](https://collectiveliberation.org/wpcontent/uploads/2013/01/White_Supremacy_Culture_Okun.pdf)
+Okun, T. (2013). white supremacy culture [PDF file]. [https://www.dismantlingracism.org/uploads/4/3/5/7/43579015/okun_-_white_sup_culture.pdf](https://www.dismantlingracism.org/uploads/4/3/5/7/43579015/okun_-_white_sup_culture.pdf)
 
 Payne, Y. A., & Suddler, C. (2014). Cope, conform, or resist? Functions of a Black American identity at a predominantly white university. _Equity & Excellence in Education, 47_(3), 385-403.
 
