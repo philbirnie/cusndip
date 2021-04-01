@@ -1,14 +1,12 @@
 ---
-title: Findings
+title: Recommendations
 excerpt: |
-    We identified six overarching categories that encompass our collective themes which are:
+    We present four overarching categories that encompass our collective recommendations. The four sections are:
 
-    1. Importance of Counterspaces
-    2. Black Student Representation
-    3. Role of Black Faculty and Staff
-    4. Mental Health and Wellness
-    5. White Cultural Competence, and
-    6. Communicating the Value of the Black Ohio State Community.
+    1. Mental Health and Wellness for African American/Black Students
+    2. Communication & Transparency
+    3. Major or Career Path Selection Support, and
+    4. Mentorship.
 
-    We also provide unique findings specific to the three populations of Black campus change students, Black males in 3rd and 4th year and Black students 4th year and beyond.
+    We also provide unique recommendations specific to our populations of focus.
 ---
