@@ -32,9 +32,9 @@ const ResearcherList = () => {
             base
             childImageSharp {
               gatsbyImageData(
-                width: 400
-                height: 500
-                quality: 95
+                width: 300
+                height: 375
+                quality: 80
                 transformOptions: { cropFocus: NORTH }
               )
             }

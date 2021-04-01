@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import StaticMarkdown from "../components/static-markdown"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo"
 
 const BackgroundLiteraturePage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const BackgroundLiteraturePage = () => {
 
   return (
     <Layout>
+      <SEO title="Background & Literature Review" />
       <div className="c-container">
         <section className="c-section">
           <h1 className="c-heading c-heading--xxl">

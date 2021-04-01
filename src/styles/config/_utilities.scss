@@ -54,6 +54,12 @@
         }
     }
 
+    &--3-2 {
+        @include mq($from: md) {
+            grid-template-columns: 3fr 2fr;
+        }
+    }
+
     &--1-2 {
         @include mq($from: md) {
             grid-template-columns: 1fr 2fr;

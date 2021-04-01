@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import StaticMarkdown from "../components/static-markdown"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo"
 
 const RecommendationsPage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const RecommendationsPage = () => {
 
   return (
     <Layout>
+      <SEO title="Recommendations" />
       <div className="c-container">
         <section className="c-section">
           <h1 className="c-heading c-heading--xxl">Recommendations</h1>
@@ -106,22 +108,34 @@ const RecommendationsPage = () => {
       <div className="researcher-bg--position-1">
         <div className="c-container">
           <RecommendationWrapper className="c-section">
-            <StaticImage
-              src={"../images/graduation.jpg"}
-              alt="Family at Graduation"
-              width={500}
-              className="float-right hidden-mobile"
-            />
-            <StaticMarkdown
-              collection={allMarkdownRemark.edges}
-              markdownId="recommendations.10-black-campus-change"
-            />
+            <div className="columns columns--3-2">
+              <div className="col">
+                <StaticMarkdown
+                  collection={allMarkdownRemark.edges}
+                  markdownId="recommendations.10-black-campus-change"
+                />
+              </div>
+              <div className="col hidden-mobile">
+                <StaticImage
+                  src={"../images/campus-change.jpg"}
+                  alt="Two students talking on bridge"
+                  width={470}
+                  className="float-right hidden-mobile"
+                />
+              </div>
+            </div>
           </RecommendationWrapper>
         </div>
       </div>
 
       <div className="c-container">
         <RecommendationWrapper className="c-section">
+          <StaticImage
+            src={"../images/graduation.jpg"}
+            alt="Family at Graduation"
+            width={400}
+            className="float-right hidden-mobile"
+          />
           <StaticMarkdown
             collection={allMarkdownRemark.edges}
             markdownId="recommendations.20-black-men-3rd-4th"

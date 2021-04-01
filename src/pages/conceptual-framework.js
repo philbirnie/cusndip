@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import StaticMarkdown from "../components/static-markdown"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo"
 
 const ConceptualFrameworkPage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const ConceptualFrameworkPage = () => {
 
   return (
     <Layout>
+      <SEO title="Conceptual Framework" />
       <div className="c-container">
         <section className="c-section">
           <h1 className="c-heading c-heading--xxl">Conceptual Framework</h1>
