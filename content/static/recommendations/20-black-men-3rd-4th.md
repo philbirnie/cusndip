@@ -6,6 +6,6 @@
 
 <h2 class="barred--researcher-3 margin-top-lg">Black Students in 4th and 5th Years</h2>
 
-### Organizational Involvement and Engagement
+### Organizational Involvement
 
 * Provide Ongoing Support and Improve Programming for Black Students Beyond the 1st and 2nd year
