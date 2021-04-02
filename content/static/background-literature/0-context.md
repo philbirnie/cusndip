@@ -1,6 +1,6 @@
-### Context
+Each of the three studies provide a review of the literature specific to African American/Black student populations on the campuses of predominantly white institutions (PWIs). Here are some of the overarching themes from our literature reviews:
 
-President Johnson shared in their 2021 State of the University address a desire for OSU to “become a truly anti-racist community”. They want OSU to be “recruiting, retaining and graduating students from underrepresented groups” (Johnson, 2021).
+* President Johnson shared in their 2021 State of the University address a desire for OSU to “become a truly anti-racist community”. They want OSU to be “recruiting, retaining and graduating students from underrepresented groups” (Johnson, 2021).
 
 * Colleges and universities across the United States (US) continue to struggle to retain and graduate Black students at the same rate as their White peers (Banks & Dohy, 2019; Brooks et al., 2013; Kniess et al., 2015; Merisotis & McCarthy, 2005; McClain & Perry, 2017; Ross et al., 2012).
 * At predominantly white institutions (PWIs) Black students experience campus climate differently than their White peers (Harper & Hurtado, 2007; Rankin & Reason, 2005), causing them to constantly need to negotiate their race (Cox, 2020; Payne & Suddler, 2014) and causing race-related stressors (Griffith et al., 2019).
