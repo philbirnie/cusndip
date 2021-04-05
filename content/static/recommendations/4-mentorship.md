@@ -6,6 +6,6 @@
 * Implement a Peer Mentor Program Connecting Current Black OSU Students on the Columbus Campus with those Changing from a Regional Campus
 * Create or Revive a Formal Black Male-Specific Peer Mentorship Program with Stipend for Mentors and Mentees
 
-<blockquote>So that's a piece that motivated me to become more this counselor, mentor, coach for others and kind of directed me to psychology, because I was like I never want to have, I'll never want somebody to have an experience like that, where they just feel so misunderstood. Like naw, naw, that ain’t happening.
+<blockquote>So that's a piece [poor experience with white counselor] that motivated me to become more this counselor, mentor, coach for others and kind of directed me to psychology, because I was like I never want to have, I'll never want somebody to have an experience like that, where they just feel so misunderstood. Like naw, naw, that ain’t happening.
 <cite>-John</cite>
 </blockquote>
