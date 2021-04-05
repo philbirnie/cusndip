@@ -1,4 +1,4 @@
-### Mental Health and Wellness for African American Students
+### Mental Health and Wellness for Black Students
 
 * Increase Educational Opportunities about Financial Wellness Beyond Loans and Paying for College
 * Develop Opportunities for Students to Engage with Nuances around their Black Identity (e.g., Colorism, Mental Health Stigma, Intersections of Race and Other Identities)
