@@ -6,6 +6,6 @@
 * Increase the number of Black Mental Health and Wellness Counselors and Increase Mental Health Services
 * Train all Mental Health Providers to be Culturally Responsive
 
-<blockquote>Um, having a Black counselor for the first time, like, it was somebody who could resonate with me and like, also shared their experience and made me understand that, like, okay, you’re not crazy for feeling this way.
+<blockquote>Um, having a Black counselor for the first time, like, it was somebody who could resonate with me and like, also shared their experience [being Black in predominantly white spaces] and made me understand that, like, okay, you’re not crazy for feeling this way.
  <cite>- Analise</cite>
 </blockquote>
