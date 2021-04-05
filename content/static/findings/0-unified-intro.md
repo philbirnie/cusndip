@@ -30,7 +30,7 @@ Participants shared that the presence of and interaction with Black faculty and 
 
 <li><strong>Mental Health and Wellness</strong>
 
-Participants shared that their access to mental health services varied. The experienced barriers including mental health counselors who were not culturally competent, embedded counselors who did not understand racial background, and personal time commitment.
+Participants shared that their access to mental health services varied. They experienced barriers including mental health counselors who were not culturally competent, embedded counselors who did not understand racial background, and personal time commitment.
     
 <blockquote>Nope, just myself. We may have talked about it [mental health] with friends. No therapy or counseling or speak to someone to share my side. Or counselors on campus, if I reached out to them, they wouldn’t understand unless they were Black. Chances are they [mental health counselors] wouldn’t be Black.
     <cite>-Jorgio</cite>
