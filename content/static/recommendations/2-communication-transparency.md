@@ -11,6 +11,6 @@
 * Improve Promotion of Multicultural Events on Campus for all Students to Attend
 * Improve promotion of services offered by ODI
 
-<blockquote>After you know the movements and things that have happened on campus, just being slow to action. And yeah, just adjusting to white students needs rather than Black students needs...And it's like in the middle because there are a lot of resources, but also know that there's a lot of progress that can be made to better the University’s relationship with Black male students.
+<blockquote>After you know the movements and things that have happened on campus, just [institutional leadership] being slow to action. And yeah, just [institutional leadership] adjusting to white students needs rather than Black students needs...And it's like in the middle because there are a lot of resources [for Black males], but also know that there's a lot of progress that can be made to better the University’s relationship with Black male students.
  <cite>- John</cite>
 </blockquote>
