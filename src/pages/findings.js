@@ -54,13 +54,19 @@ const FindingsPage = () => {
               </div>
             </div>
           </RecommendationWrapper>
-          <RecommendationWrapper>
-            <StaticMarkdown
-              collection={allMarkdownRemark.edges}
-              markdownId="findings.1-individual-findings"
-            />
-          </RecommendationWrapper>
         </section>
+      </div>
+      <div className="bg-gray-light">
+        <div className="c-container">
+          <section className="c-section">
+            <RecommendationWrapper>
+              <StaticMarkdown
+                collection={allMarkdownRemark.edges}
+                markdownId="findings.1-individual-findings"
+              />
+            </RecommendationWrapper>
+          </section>
+        </div>
       </div>
     </Layout>
   )

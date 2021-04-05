@@ -3,14 +3,11 @@ module.exports = {
     title: `Centering Black Student Success`,
     subtitle: `A Review of Three Qualitative Projects to Aid in the Increase of African American/Black Student Success`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Phil Birnie`,
+      summary: `Developer in Columbus Ohio`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `A Review of Three Qualitative Projects to Aid in the Increase of African American/Black Student Success.`,
+    siteUrl: `https://cusndip.com`,
   },
   plugins: [
     `gatsby-plugin-sass`,

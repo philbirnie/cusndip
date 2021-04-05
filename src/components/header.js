@@ -25,16 +25,12 @@ const Header = ({ isFull }) => {
     function startObserve() {
       const callback = (entries, observer) => {
         entries.forEach(entry => {
-          if (entry.intersectionRatio === 1) {
-            setOverMain(false)
-          } else if (!entry.isIntersecting) {
-            setOverMain(true)
-          }
+          setOverMain(!entry.isIntersecting)
         })
       }
 
       const option = {
-        threshold: [0.2, 1.0],
+        threshold: 0.1,
       }
 
       observer.current = new IntersectionObserver(callback, option)
@@ -65,6 +61,13 @@ const Header = ({ isFull }) => {
         <h2 className="c-heading c-heading--md">
           {data.site.siteMetadata.subtitle}
         </h2>
+        {isFull && (
+          <blockquote className="margin-top-sm">
+            “You can bring Black students to campus but keeping them here is the
+            issue.”
+            <cite>– Brandy</cite>
+          </blockquote>
+        )}
       </div>
       <StaticImage
         src="../images/main-home.jpg"

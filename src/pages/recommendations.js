@@ -122,25 +122,28 @@ const RecommendationsPage = () => {
                   width={470}
                   className="float-right hidden-mobile"
                 />
+                <StaticImage
+                  src={"../images/bsa-event.jpg"}
+                  alt="Students enjoying a BSA Event"
+                  width={470}
+                  className="float-right float-clear-right hidden-mobile margin-top-lg"
+                />
               </div>
             </div>
           </RecommendationWrapper>
+          <RecommendationWrapper className="c-section">
+            <StaticImage
+              src={"../images/graduation.jpg"}
+              alt="Family at Graduation"
+              width={400}
+              className="float-right hidden-mobile"
+            />
+            <StaticMarkdown
+              collection={allMarkdownRemark.edges}
+              markdownId="recommendations.20-black-men-3rd-4th"
+            />
+          </RecommendationWrapper>
         </div>
-      </div>
-
-      <div className="c-container">
-        <RecommendationWrapper className="c-section">
-          <StaticImage
-            src={"../images/graduation.jpg"}
-            alt="Family at Graduation"
-            width={400}
-            className="float-right hidden-mobile"
-          />
-          <StaticMarkdown
-            collection={allMarkdownRemark.edges}
-            markdownId="recommendations.20-black-men-3rd-4th"
-          />
-        </RecommendationWrapper>
       </div>
 
       <div className="researcher-bg--position-3">
