@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Centering Black Student Success`,
-    subtitle: `A Review of Three Qualitative Projects to Aid in the Increase of African American/Black Student Success`,
+    subtitle: `A Review of Three Qualitative Studies to Aid in the Increase of African American/Black Student Success`,
     author: {
       name: `Phil Birnie`,
       summary: `Developer in Columbus Ohio`,
     },
-    description: `A Review of Three Qualitative Projects to Aid in the Increase of African American/Black Student Success.`,
+    description: `A Review of Three Qualitative Studies to Aid in the Increase of African American/Black Student Success.`,
     siteUrl: `https://cusndip.com`,
   },
   plugins: [
